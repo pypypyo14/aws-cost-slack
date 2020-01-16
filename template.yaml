@@ -54,7 +54,7 @@ Resources:
         NotifuSlack:
           Type: Schedule
           Properties:
-            Schedule: cron(00 1 * * ? *)
+            Schedule: cron(00 0 * * ? *)
             Enabled: true
 
 Outputs:
