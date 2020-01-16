@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-cost-slack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1q6uz3o95hv1j"
+s3_prefix = "aws-cost-slack"
+region = "us-east-1"
+profile = "mytest"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "SlackWebhookUrl=\"\""
